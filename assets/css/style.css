@@ -97,6 +97,7 @@ main {
 /* Footer */
 footer {
   background-color: orange;
+  
 }
 
 
@@ -131,7 +132,7 @@ footer {
   }
 
   /* Main content */
-  main{ 
+  main {
     /* Push main content down to accommodate larger header */
     margin-top: 79px;
   }
@@ -140,9 +141,9 @@ footer {
 
 /* Media query for screen size 992 and higher */
 @media screen and (min-width: 992px) {
+
   /* Give nav tags active response */
-  #menu a:hover{
+  #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
-
 }
